@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css" />
+  </head>
+
+  <body>
+    <div class="mainDiv">
+      <div id="earLeftId"></div>
+      <div id="earRightId"></div>
+
+      <div id="faceId">
+        <!-- <img src="./nose-removebg-preview.png" alt=""> -->
+        <svg height="500" width="500">
+		    <polygon points="265,260 220,230 310,230" class="triangle" />
+	  </svg>
+        <div id="eyeLeftId">
+          <div id="eyeDotLeft"></div>
+        </div>
+        <div id="eyeRightId">
+          <div id="eyeDotRight"></div>
+        </div>
+        <div id="noseId"></div>
+      </div>
+    </div>
+    <div id="allButtons">
+      <input type="color" name="" id="eyesBgColINP" />
+      <button onclick="changeEyesCOl()">change eye color</button>
+      <br />
+      <input type="color" name="" id="faceBgColINP" />
+      <button onclick="changeFaceCOl()">change face color</button>
+      <br />
+      <input type="color" name="" id="earsBgColINP" />
+      <button onclick="changeEarsCOl()">change ears color</button>
+      <br />
+    </div>
+    <script src="lib/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+
+
+
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, #e96126, #e68038, #e39a52, #e1b171, #e1c694);
+}
+
+
+.mainDiv{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    /* background-color: #856767; */
+}
+
+
+
+#earLeftId{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: black;
+    left: 100px;
+}
+
+#earRightId {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: black;
+    left: 400px;
+}
+
+#eyeDotLeft{
+    /* position: relative; */
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    /* left: 300px;
+    top: 200px; */
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#eyeDotRight{
+    /* position: relative; */
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+#faceId {
+    position: absolute;
+    height: 380px;
+    width: 500px;
+    border-radius: 50% 50% 40% 40%;
+    background-color: #ffffff;
+    text-align: center;
+    left: 100px;
+    top: 50px;
+}
+
+#eyeLeftId {
+    position: absolute;
+    height: 160px;
+    width: 120px;
+    transform: rotate(45deg);
+    background-color: #000000;
+    border-radius: 60% 50% 50% 50%;
+    left: 100px;
+    top: 100px;
+}
+
+#eyeRightId {
+    position: absolute;
+    height: 160px;
+    width: 120px;
+    transform: rotate(-45deg);
+    background-color: #000000;
+    border-radius: 60% 50% 50% 50%;
+    left: 300px;
+    top: 100px;
+}
+
+img{
+    margin-top: 250px;
+    margin-left: 25px;
+}
